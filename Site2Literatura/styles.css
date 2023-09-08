@@ -1,0 +1,65 @@
+/* Estilos CSS para o corpo do site com a imagem de fundo */
+body {
+    background-image: url('jardim_livros.jpg'); /* Substitua 'background.jpg' pela sua imagem de fundo */
+    background-size: cover;
+    background-attachment: fixed; /* Para manter a imagem de fundo fixa */
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* Estilos CSS para o título */
+.header {
+    background-image: url('background.jpg'); /* Substitua 'background.jpg' pela sua imagem de fundo */
+    background-size: cover;
+    text-align: center;
+    color: rgb(34, 13, 1);
+    padding: 40x 0;
+    font-family: 'Open Sans', sans-serif; /* Exemplo de fonte personalizada */
+}
+
+/* Estilos CSS para os botões */
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+/* Estilos CSS para o conteúdo principal */
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-content {
+    flex: 1;
+}
+
+.right-content {
+    flex: 1;
+}
+
+/* Estilos CSS para a grid de livros */
+.book-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book {
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Estilos CSS para o rodapé */
+.footer {
+    /*background-color: black;*/
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
